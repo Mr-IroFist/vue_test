@@ -12,6 +12,6 @@ export default {
     .tab{
         width: 100%;
         height: 50px;
-        background-color: green;
+        background-color: pink;
     }
 </style>
