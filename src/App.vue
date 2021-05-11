@@ -1,27 +1,25 @@
 <template>
   <div id="app">
+    <Tab />
     <Box />
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <Img />
+    <img alt="Vue logo" src="./assets/logo.png">
+    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
 <script>
-import Box from "./components/Box.vue";
-import HelloWorld from "./components/HelloWorld.vue";
-import Img from "./components/Img.vue";
+import Box from './components/Box.vue'
+import HelloWorld from './components/HelloWorld.vue'
+import Tab from './components/Tab.vue'
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     HelloWorld,
-
     Box,
-
-    Img,
-  },
-};
+    Tab
+  }
+}
 </script>
 
 <style>
